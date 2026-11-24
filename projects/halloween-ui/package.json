@@ -1,0 +1,14 @@
+{
+  "name": "halloween-ui",
+  "version": "1.0.0",
+  "description": "Libreria de componentes de Halloween con una tarjeta reutilizable.",
+  "author": "Gonzalo Blázquez Hermira",
+  "peerDependencies": {
+    "@angular/common": "^22.3.0",
+    "@angular/core": "^22.3.0"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/public-api.ts"
+  }
+}

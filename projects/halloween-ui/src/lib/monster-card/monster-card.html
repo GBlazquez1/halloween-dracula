@@ -1,0 +1,13 @@
+<div class="tarjeta">
+  <img [src]="imagen" [alt]="titulo">
+
+  <div class="contenido">
+    <h2>{{ titulo }}</h2>
+
+    <p>{{ texto }}</p>
+
+    <button type="button" (click)="mostrarMensaje()">
+      Descubrir secreto
+    </button>
+  </div>
+</div>

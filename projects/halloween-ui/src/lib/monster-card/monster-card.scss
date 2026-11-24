@@ -1,0 +1,55 @@
+.tarjeta {
+  background: #1b1414;
+  color: #f5eeee;
+  border: 2px solid #b32636;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: 0 0 12px #700d1d;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.contenido {
+  padding: 18px;
+}
+
+h2 {
+  color: #ff6575;
+  font-family: Georgia, serif;
+  text-shadow: 2px 2px #000;
+  margin-top: 0;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+button {
+  background: #a7192b;
+  color: white;
+  border: 1px solid #ff6575;
+  border-radius: 6px;
+  padding: 12px 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #c32238;
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+button:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 3px;
+}
